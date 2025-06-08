@@ -1,0 +1,38 @@
+# Python cache ve derlenmiş dosyalar
+__pycache__/
+*.py[cod]
+*$py.classp
+
+# Sanal ortamlar
+venv/
+env/
+.venv/
+.env/
+
+# Veri ve log klasörleri (isteğe bağlı, büyük dosyaları git’e dahil etmemek için)
+data/
+logs/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit cache ve temp dosyaları
+.streamlit/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoint'leri
+.ipynb_checkpoints/
+
+# Paketler ve bağımlılık dosyaları
+*.egg-info/
+dist/
+build/
